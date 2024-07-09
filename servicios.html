@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Centro de Salud - Inicio</title>
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #00008B;
+            color: white;
+            padding: 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .logo {
+            display: flex;
+            align-items: center;
+        }
+        .logo img {
+            width: 110px;
+            height: 110px;
+            margin-right: 5px;
+        }
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin-left: 20px;
+        }
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+        }
+        .content {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 20px;
+        }
+        .row {
+            display: flex;
+            justify-content: center;
+            width: 100%;
+            margin-bottom: 0.5cm;
+        }
+        .container {
+            background-color: #e6f2ff;
+            padding: 20px;
+            width: calc(50% - 0.25cm - 1px);
+            box-sizing: border-box;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .container h2 {
+            color: black;
+            text-align: center;
+        }
+        .container p {
+            text-align: justify;
+        }
+        .separator {
+            width: 2px;
+            background-color: #00008B;
+            margin: 0 0.24cm;
+        }
+        .final-message {
+            background-color: #e6f2ff;
+            padding: 20px;
+            width: 100%;
+            text-align: center;
+            margin-top: 0.5cm;
+            box-sizing: border-box;
+        }
+        footer {
+            background-color: #00008B;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            width: 100%;
+        }
+        footer p {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 5px 0;
+        }
+        footer i {
+            margin-right: 5px;
+        }
+        footer a {
+            color: white;
+            text-decoration: none;
+        }
+        .container img {
+            width: 10cm;
+            height: 10cm;
+            object-fit: cover;
+            display: block;
+            margin: 0 auto 15px;
+        }
+        @media screen and (max-width: 768px) {
+            .container img {
+                width: 50vw;
+                height: 50vw;
+                max-width: 10cm;
+                max-height: 10cm;
+            }
+            .row {
+                flex-direction: column;
+                align-items: center;
+            }
+            .container {
+                width: 100%;
+                margin-bottom: 20px;
+            }
+            .separator {
+                display: none;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="imagenes/logoCusAL.png" alt="Logo Centro de Salud">
+            <h1>Centro Universitario de Salud "Alfonso Lopez"</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="servicios.html">Servicios</a></li>
+
+            </ul>
+        </nav>
+    </header>
+
+    <div class="content">
+        <div class="row">
+            <div class="container">
+                <h2>Medicina General</h2>
+                <img src="imagenes/c7.jpg" alt="Objetivo">
+                <p>
+                    Se conoce como medicina general al primer nivel de atención médica que realiza procedimientos sencillos y habitualmente se realiza en consultas ambulatorias.
+
+                    ¿Qué objetivos tiene la medicina general?
+
+                    Como se ha explicado, el objetivo principal de la medicina general es tratar de que cada paciente tenga un buen estado de salud a todos los niveles.
+
+                    No obstante, se podría decir que algunos de los objetivos de la medicina general son, en primer lugar, la prevención de diversas patologías, mediante la realización de controles y revisiones periódicas. Especialmente, en aquellos casos de pacientes con enfermedades crónicas.
+
+                    En segundo lugar, la medicina general, se encarga de elaborar determinados diagnósticos. Así como, tratar enfermedades o infecciones que requieren de procedimientos sencillos que, por lo general, puedan realizarse de manera ambulatoria.
+
+                    Sin embargo, uno de los cometidos más importantes de la medicina general, es realizar la evaluación inicial de la sintomatología del paciente y, en función de los resultados obtenidos, derivar al especialista adecuado en cada caso.
+
+                    ¿Qué patologías trata la medicina general?
+
+                    Una de las dudas más frecuentes está relacionada con las patologías tratables por la medicina general. En las consultas de medicina general, como ya se ha explicado, se trata un espectro de enfermedades muy amplio.
+
+                    Algunas de las consultas más comunes están relacionadas con infecciones que puedan requerir de un tratamiento antibiótico, patologías leves que no requieran la derivación a un especialista, así como, enfermedades del aparato respiratorio.
+
+                    En muchas ocasiones, la medicina general es la encargada de tratar a pacientes con enfermedades crónicas. En estos casos, se realizan controles y revisiones de manera periódicas, así como, se brinda apoyo emocional y psicológico al paciente, con el objetivo de minimizar los efectos de su patología en su día a día.
+                    <br/> <br/>
+                </p>
+            </div>
+            <div class="separator"></div>
+            <div class="container">
+                <h2>Medicina Familiar</h2>
+                <img src="imagenes/c8.jpg" alt="c6">
+                <p>
+                    Es una especialidad médica con una formación científica con una duración de 3 años. Este especialista, proporciona cuidado y atención permanente e integral a las personas y sus familias, teniendo en cuenta los componentes psicológicos, biológicos, laborales, familiares y sociales de cada persona. El Médico Familiar es uno de los lideres en la implementación de programas de prevención y promoción de la Salud.
+
+                ¿Qué funciones tiene un medico familiar?
+
+                El especialista en Medicina Familiar, es considerado uno de los líderes del componente primario de las redes integrales de prestadores de servicios de salud (RIPSS), siendo una de las puertas de entrada de las personas que necesiten atención médica. Puede desempeñarse en diferentes escenarios y niveles de atención, proporcionando la atención integral de las personas que consultan a los servicios de salud, con capacidad de encontrar soluciones a los muchos motivos de consulta.
+
+                ¿ Porqué debe ser usted visto por un Médico Familiar?
+
+                El especialista en Medicina Familiar ofrece una atención humanizada, con calidad, orientada a la prevención. Elabora el plan de mantenimiento de la salud personalizado, haciendo enfasís en el análisis de riesgo de padecer una enfermedad, conoce y atiende las enfermedades más frecuentes, hace seguimiento continuo del individuo y su familia tanto en la salud como en la enfermedad, detecta los cambios en la funcionalidad familiar asociados con la enfermedad y los interviene si se requiere. Es de resaltar que el 19 de Mayo se conmemora el dia mundial del Médico Familiar, con el objetivo de destacar el papel y la contribución de los Médicos de Familia en el sistema de salud.
+
+                <br/> <br/>
+                </p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="container">
+                <h2>Fisioterapia</h2>
+                <img src="imagenes/c6.jpg" alt="Propósito">
+                <p>
+                    Para entender mejor la definición de esta disciplina es importante tomar en consideración las decisiones establecidas por los organismos mundiales de salud que la regulan.
+
+                La Organización Mundial de la Salud (OMS) define en 1958 a la Fisioterapia como "El arte y la ciencia del tratamiento por medio del ejercicio terapéutico, calor, frío, luz, agua, masaje y electricidad.
+                Además, la Fisioterapia incluye la ejecución de pruebas eléctricas y manuales para determinar el valor de la afectación y fuerza muscular, pruebas para determinar las capacidades funcionales, la amplitud del movimiento articular y medidas de la capacidad vital, así como ayudas diagnósticas para el control de la evolución".
+
+                Ahora bien, la fisioterapia, como la describe actualmente la Confederación Mundial de la Fisioterapia (W.C.P.T., por sus siglas en inglés), es “Una profesión de atención de la salud que se ocupa de la función y el movimiento humano y de maximizar el potencial físico.
+                Se ocupa de identificar y maximizar la calidad de vida
+                y el potencial de movimiento en las esferas de promoción, prevención, tratamiento / intervención, habilitación y rehabilitación. Estas esferas abarcan el bienestar físico, psicológico, emocional y social”.
+
+                <br/> <br/>¿Cuáles son los objetivos de la Fisioterapia?
+
+                Los abordajes terapéuticos que se desarrollan dentro de esta especialidad tiene variedad de objetivos, los cuáles van a depender de los problemas individuales de cada paciente, por ejemplo, de la edad y estado de salud general, del cuadro clínico que se este desarrollando y su etapa progresiva, así como también de las necesidades individuales que requiera el paciente para mantener un óptimo nivel en la realización de sus actividades en la vida diaria.
+                Teniendo esto en cuenta podemos decir que los objetivos más destacables dentro del tratamiento fisioterapéutico son:
+
+                Analgesia del dolor mediante la regulación de la tensión muscular, eliminación de los trastornos funcionales, mejora de la movilidad, aumento de la fuerza / construcción de tejido muscular y mejora de la coordinación de movimiento.
+
+                Entrenamiento de las habilidades sensoriomotoras alteradas optimizando la interacción de la percepción sensorial, el equilibrio y el movimiento.
+
+                Mejora del sistema respiratorio y cardiovascular, así como también las funciones de los órganos mediante una mayor resistencia y regulación de la función respiratoria.
+
+                Implementar opciones de compensación en caso de presencia discapacidad o enfermedad permanente.
+
+                Optimar la calidad de vida en el trabajo y en la vida cotidiana.
+
+                Ayudar a las personas a ayudarse a sí mismas y lograr su independencia en la realización de las actividades de la vida diaria.
+                <br/> <br/>
+                </p>
+            </div>
+            <div class="separator"></div>
+            <div class="container">
+                <h2>Fonoaudiologia</h2>
+                <img src="imagenes/c11.jpg" alt="Misión2">
+                <p>
+                    La fonoaudiología es una disciplina de la salud que estudia la comunicación humana y la discapacidad comunicativa, reconociendo los factores individuales, interpersonales y sociales que la contienen desde un enfoque sistémico, estrechamente ligado a la práctica de acciones profesionales que promueven el desarrollo humano.
+
+                Es una especialidad de colaboración médica, que diagnostica, trata y previene los trastornos de voz, habla, lenguaje y audición. Las causas más frecuentes de los trastornos vocales son los abusos sobre la voz, sin tener técnicas ortofónicas. Además, los trastornos afectivos y psicológicos que inciden en ella, junto con la mala higiene de las cuerdas vocales, es decir, consumo de tabaco, alcohol y sustancias irritativas influyen fuertemente en el daño al que puede verse enfrentada la voz.
+
+                    A través del trabajo conjunto con las unidades de Otorrinolaringología, Pediatría, Neurología, Ortodoncia y Cirugía de Cabeza y Cuello, los especialistas buscan otorgar las mejores herramientas para lograr que sus pacientes puedan solucionar sus problemas.
+
+                    <br/> <br/>Los objetivos de la Fonoaudiología busca reestablecer la comunicación que se ve impedida por algún factor en la voz, habla, lenguaje o audición. Esta especialidad se desarrolla principalmente en las áreas de:
+
+                    <br/> <br/>Salud: Se encarga de la rehabilitación en lenguaje, habla, voz y audición en pacientes adultos y niños en instituciones de salud públicas y privadas.
+
+                    <br/> <br/>Educación: La especialidad es dependiente del Ministerio de Educación. Se trabaja en escuelas de lenguaje y en escuelas especiales para niños con discapacidades intelectuales, neurológicas y sensoriales. En ellas se realiza terapia y rehabilitación en lenguaje, habla y deglución principalmente.
+                <br/> <br/>
+                </p>
+            </div>
+        </div>
+        <div class="final-message">
+            <h3>Recueda el CUS "Alfonso Lopez", !! Cuida tu salud !!</h3>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Centro Universitario de Salud "Alfonso Lopez". Todos los derechos reservados.</p>
+        <p><i data-lucide="mail"></i> Escríbenos a: <a href="mailto:atencion@cus.unicauca.edu.co">atencion@cus.unicauca.edu.co</a></p>
+        <p><i data-lucide="phone"></i> Celular: 31452545</p>
+    </footer>
+
+    <script>
+        lucide.createIcons();
+    </script>
+</body>
+</html>
