@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Centro de Salud - Servicios</title>
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #00008B;
+            color: white;
+            padding: 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .logo {
+            display: flex;
+            align-items: center;
+        }
+        .logo img {
+            width: 110px;
+            height: 110px;
+            margin-right: 5px;
+        }
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin-left: 20px;
+        }
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+        }
+        .content {
+            padding: 20px;
+        }
+        .carousel {
+            position: relative;
+            width: 100%;
+            height: 400px;
+            overflow: hidden;
+            margin-bottom: 20px;
+        }
+        .carousel-inner {
+            display: flex;
+            transition: transform 0.5s ease;
+        }
+        .carousel-item {
+            min-width: 100%;
+            height: 400px;
+        }
+        .carousel-item img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+        .carousel-controls {
+            position: absolute;
+            bottom: 10px;
+            right: 10px;
+        }
+        .carousel-control {
+            background-color: rgba(0, 0, 0, 0.5);
+            color: white;
+            border: none;
+            padding: 10px 15px;
+            margin-left: 5px;
+            cursor: pointer;
+        }
+        .info-row {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 0.5cm;
+        }
+        .info-container {
+            width: calc(50% - 0.25cm);
+            background-color: #e6f2ff;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+
+        .info-container p {
+         text-align: justify;
+        }
+
+         .info-container h2 {
+         text-align: center;
+        }
+
+
+        .separator {
+            width: 0.5cm;
+        }
+        .final-message {
+            background-color: #e6f2ff;
+            padding: 20px;
+            text-align: center;
+            margin-top: 0.5cm;
+        }
+        footer {
+            background-color: #00008B;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            width: 100%;
+        }
+        footer p {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 5px 0;
+        }
+        footer i {
+            margin-right: 5px;
+        }
+        footer a {
+            color: white;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="imagenes/logoCusAL.png" alt="Logo Centro de Salud">
+            <h1>Centro Universitario de Salud "Alfonso Lopez"</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="servicios.html">Servicios</a></li>
+
+            </ul>
+        </nav>
+    </header>
+
+    <div class="content">
+        <div class="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item"><img src="imagenes/c1.jpg" alt="Servicio 1"></div>
+                <div class="carousel-item"><img src="imagenes/c2.jpg" alt="Servicio 2"></div>
+                <div class="carousel-item"><img src="imagenes/c3.jpg" alt="Servicio 3"></div>
+                <div class="carousel-item"><img src="imagenes/c10.jpg" alt="Servicio 4"></div>
+                <div class="carousel-item"><img src="imagenes/c5.jpg" alt="Servicio 5"></div>
+            </div>
+            <div class="carousel-controls">
+                <button class="carousel-control" id="prevBtn">Anterior</button>
+                <button class="carousel-control" id="nextBtn">Siguiente</button>
+            </div>
+        </div>
+
+        <div class="info-row">
+            <div class="info-container">
+                <h2>Quienes Somos?</h2>
+                <p>
+                    El Centro Universitario de Salud “Alfonso López” es un escenario de práctica de baja complejidad, con proyección social y comunitaria, que ha sido reconocido ampliamente en la comuna 6 de la ciudad de Popayán, no solo por instituciones de la ciudad, si no por los usuarios y habitantes de los diferentes barrios, quienes históricamente han participado de la construcción y consolidación del Centro de Salud, como un centro de referencia que ha contribuido con el cuidado de la salud de las personas en la ciudad de Popayán. En esta área de incidencia en la ciudad, se han logrado establecer distintos programas de prevención de la salud con orientación en la atención primaria de la salud, además de atención continua en diferentes servicios asistenciales, como medicina, vacunación, fisioterapia, fonoaudiología entre otros, orientados a la atención asistencial, educación y prevención de alteraciones patológicas
+                </p>
+            </div>
+            <div class="separator"></div>
+            <div class="info-container">
+                <h2>Proposito</h2>
+                <p>
+                    El centro Universitario de salud Alfonso López tiene como propósito contribuir al bienestar de la población, prestando servicios de salud de calidad, orientados desde la promoción de la salud y prevención de la enfermedad, proyección comunitaria y de atención primaria en salud, soportado en los procesos académicos, la educación y la investigación, siendo un eje importante de proyección social de la universidad del cauca
+                </p>
+            </div>
+        </div>
+
+        <div class="info-row">
+            <div class="info-container">
+                <h2>Misión</h2>
+                <p>
+                    El centro universitario de salud Alfonso López es una institución de salud que presta servicios de baja complejidad, con calidad, oportunos y asequibles, con idoneidad en su talento humano y con recursos tecnológicos que favorecen el bienestar social y el desarrollo de la comunidad. Es un eje de proyección social de la universidad, que permite la integración académica con los demás sectores, contribuyendo así al fortalecimiento de la formación académica y la investigación
+                </p>
+            </div>
+            <div class="separator"></div>
+            <div class="info-container">
+                <h2>Vision</h2>
+                <p>
+                    El Centro Universitario de Salud Alfonso López se constituirá para el año 2027 en un polo de desarrollo académico y de investigación de la Universidad del Cauca con crecimiento en la oferta de servicios y será modelo de prestación de servicio de salud desde la APS y la salud comunitaria
+                </p>
+            </div>
+        </div>
+
+        <div class="final-message">
+            <h3>Recueda el CUS "Alfonso Lopez", !! Cuida tu salud !!</h3>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Centro Universitario de Salud "Alfonso Lopez". Todos los derechos reservados.</p>
+        <p><i data-lucide="mail"></i> Escríbenos a: <a href="mailto:atencion@cus.unicauca.edu.co">atencion@cus.unicauca.edu.co</a></p>
+        <p><i data-lucide="phone"></i> Celular: 31452545</p>
+    </footer>
+
+    <script>
+        lucide.createIcons();
+
+        const carousel = document.querySelector('.carousel-inner');
+        const items = document.querySelectorAll('.carousel-item');
+        const prevBtn = document.getElementById('prevBtn');
+        const nextBtn = document.getElementById('nextBtn');
+        let currentIndex = 0;
+
+        function showSlide(index) {
+            if (index < 0) index = items.length - 1;
+            if (index >= items.length) index = 0;
+            carousel.style.transform = `translateX(-${index * 100}%)`;
+            currentIndex = index;
+        }
+
+        prevBtn.addEventListener('click', () => showSlide(currentIndex - 1));
+        nextBtn.addEventListener('click', () => showSlide(currentIndex + 1));
+    </script>
+</body>
+</html>
